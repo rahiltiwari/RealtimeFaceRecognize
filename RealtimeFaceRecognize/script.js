@@ -42,7 +42,7 @@ video.addEventListener('play', async () => {
 })
 
 function loadLabeledImages() {
-    const labels = ['Sid' ,'Rahil', 'Anjali']//['Black Widow', 'Captain America', 'Captain Marvel', 'Hawkeye', 'Jim Rhodes', 'Rahil', 'Thor', 'Tony Stark']
+    const labels = ['Sid' , 'Rahil']//['Black Widow', 'Captain America', 'Captain Marvel', 'Hawkeye', 'Jim Rhodes', 'Rahil', 'Thor', 'Tony Stark']
     return Promise.all(
       labels.map(async label => {
         const descriptions = []
